@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /images/
+Sitemap: https://vimpel38.ru/sitemap.xml

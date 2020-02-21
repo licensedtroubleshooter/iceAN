@@ -1,0 +1,5 @@
+pymongo
+aiohttp
+aiohttp_cors
+geopandas
+folium

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+<style>
+    #p1{
+        margin-left: 100px;
+    }
+    #p2{
+        margin-left: 50px;
+    }
+</style>
+<head>
+    <meta charset="utf-8"/>
+    <!--    <meta name="format-detection" content="telephone=no">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords"
+          content="business predict analize past graph">
+    <title>iceAN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--BOOTSTRAP 4-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!--MAIN CSS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css?v=4"/>
+    <!-- -->
+
+</head>
+<body>
+<div>
+    <!-- PRESENTATION PHOTO AND TEXT -->
+    <div class="col-12 presentation" id="home" style="
+                    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url('12345.jpg');
+                    background-size: cover;
+                    background-position: top;
+                    z-index: 998;
+                    text-align: left;
+                    padding: 0;
+                    ">
+
+
+        <div class="row greet" style="justify-content: center;">
+            <div class="col-12">
+                <h1>
+                     <span style="color: #ffc107;">I</span>ce<span style="color: rgb(144, 183, 224);">AN</span> <br> (Ice analitics)
+                </h1>
+            </div>
+
+            <br>
+
+            <div class="col-12" style="margin-bottom: 2em">
+                <h3>5 кликов до подробного анализа рынка:</h3>
+            </div>
+
+            <div class=" col-md-4 col-sm-8 greet-good">
+                <div class="nav nav-tabs nav-stacked mobile-navbar slide-selection">
+                    • Выберите нужный город
+                </div>
+                <div class="nav nav-tabs nav-stacked mobile-navbar slide-selection">
+                    • Выберите отрасль рынка
+                </div>
+                <div class="nav nav-tabs nav-stacked mobile-navbar slide-selection">
+                    • Качественный прогноз готов!
+                </div> <br> <br>
+                <button id="p1" type="button" class="button" onClick='location.href="http://95.183.13.86:8080/"'> Попробовать
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--   END PRESENTATION PHOTO AND TEXT   -->
+
+    <a href="#">
+        <i class="fas fa-angle-up pulse" title="Вернуться к началу"></i>
+    </a>
+
+</div>
+
+
+<div class="">
+    <div class="row block" style="margin-bottom: 0;">
+        <div class="col-12 centered title">
+            <h6>Фишечки:    </h6>
+            <div class="row">
+                <div class="col-5"></div>
+                <div class="col-2">
+                    <div class="decoration"></div>
+                </div>
+                <div class="col-5"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card card-body" style="padding: 0;">
+        <div class="row products" style="">
+            <div class="col-md-4 col-12 advantage centered faq-content" style="
+                background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('1_pic.jpg');
+                    background-size: cover; color: white !important;"> <!--onclick="faq_href('beton.html')"-->
+                <!--                <img class='faq-img' src="img/products/beton.jpg">-->
+                <h1 class='card-title' style="color: white">Города</h1>
+                <h3 style="color: white">Крупнейшие мегаполисы мира</h3> <br>
+                <p style="color: white">Наши базы постоянно пополняются. <br> Выберите город в котором будет Ваш бизнес и получите полный анализ!  <br><br>
+                </p>
+
+            </div>
+
+            <div class="col-md-4 col-12 advantage centered faq-content" style="
+                background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('2_pic.jpg');
+                    background-size: cover; color: white !important; ">
+                <h1 class='card-title' style="color: #2b2b2b; color: white !important;">Отрасли рынка</h1>
+                <h3 style=" color: white;">Более 40 различных областей бизнеса</h3>
+                <p style="color: white;"> <br>
+                    В какой сфере Ваш бизнес? Найдите свою нишу в приведенном списке!
+                    <br><br>
+
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid" id="about">
+    <div class="about-comp">
+        <div class="row block">
+            <div class="col-12 centered title">
+                <h6><span style="color: #2b2b2b">О</span> проекте</h6>
+                <div class="row">
+                    <div class="col-5"></div>
+                    <div class="col-2">
+                        <div class="decoration"></div>
+                    </div>
+                    <div class="col-5"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-1"></div>
+
+                    <div class="col-md-3 col-1"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <p style="padding: 5vh">
+                    “Городская среда” - веб-приложение, которое позволяет пользователю получить представление о насыщенности рынка, статистику, динамику развития отрасли по заданным им критериям, а именно по выбранному: городу, интервалу времени и отрасли.
+                    В результате работы количественно видны перспективы развития рынка, что облегчает выбор сегмента.
+                    <br>
+                    <br>
+                    Цель проекта
+                    Создать веб-приложение, которое будет помогать пользователю (стартаперам, владельцам бизнеса) анализировать и прогнозировать размер, динамику и потенциал развития отрасли рынка.
+                    <br>
+                    <br>
+                    - FULLSTACK БД, парсер - Валентин Мамедов               <br>
+
+                    - Модель машинного обучения - Александр Суржиков                    <br>
+
+                    - Серверная сторона - Анастасия Куклина и Денис Клоков                    <br>
+
+                    - DevOps - Андрей Емельянов, Борис Бурцев                    <br>
+
+                    - Технические писатели - Алена Антонова и Маргарита Лобова                    <br>
+
+                    - Клиентская сторона - Иван Щукин                    <br>
+
+                    - Наш ментор/куратор/наставник - Петр Гусев                   <br>
+
+                </p>
+            </div>
+            <div class="col-md-6 col-12">
+                <div style="background-image: url(cat.jpg); background-position: center; background-size: cover; height: 55vh"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-2">
+                <div class="decoration"></div>
+            </div>
+            <div class="col-5"></div>
+        </div>
+
+    </div>
+
+    <div class="mobile-form">
+        <div class="card card-body">
+            <div class="row products" style="">
+                <div class="col-12 centered title">
+                    <h6><span style="color: #2b2b2b">О</span> проекте</h6>
+                    <div class="row">
+                        <div class="col-5"></div>
+                        <div class="col-2">
+                            <div class="decoration"></div>
+                        </div>
+                        <div class="col-5"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-1"></div>
+
+                        <div class="col-md-3 col-1"></div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="about-text">
+                        <span style="font-weight: bold"> “Городская среда” </span>
+                         - веб-приложение, которое позволяет пользователю получить представление о насыщенности рынка, статистику, динамику развития отрасли по заданным им критериям, а именно по выбранному: городу, интервалу времени и отрасли.
+                        В результате работы количественно видны перспективы развития рынка, что облегчает выбор сегмента.
+                    </p>
+                    <br>
+                    <p class="about-text">
+                        <span style="font-weight: bold"> Цель проекта: </span>
+                        Создать веб-приложение, которое будет помогать пользователю (стартаперам, владельцам бизнеса) анализировать и прогнозировать размер, динамику и потенциал развития отрасли рынка.
+
+                    </p>
+                    <br>
+                    <p class="about-text">
+                        - FULLSTACK, БД, парсер - Валентин Мамедов               <br> <br>
+
+                        - Модель машинного обучения - Александр Суржиков                    <br> <br>
+
+                        - Серверная сторона - Анастасия Куклина и Денис Клоков                    <br> <br>
+
+                        - DevOps - Андрей Емельянов, Борис Бурцев                    <br> <br>
+
+                        - Технические писатели - Алена Антонова и Маргарита Лобова                    <br> <br>
+
+                        - Клиентская сторона - Иван Щукин                    <br> <br>
+
+                        - Наш ментор/куратор/наставник - Петр Гусев                   <br> <br>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="whyWe">
+    <div class="row block" style="margin-bottom: 0;">
+        <div class="col-12 centered title">
+            <h6>Почему мы лучшие?</h6>
+            <div class="row">
+                <div class="col-5"></div>
+                <div class="col-2">
+                    <div class="decoration"></div>
+                </div>
+                <div class="col-5"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-4 col-12 advantage centered">
+                <i class="fa fa-gavel" aria-hidden="true"></i>
+                <br>
+                <h3 style="color: #2b2b2b;">Качество</h3>
+                <p style="font-size: 1em; ">Наш сервис не уступает по точности прогнозов услугам высококвалифицированных специалистов.</p>
+            </div>
+
+            <div class="col-md-4 col-12 advantage centered">
+                <i class="fas fa-piggy-bank"></i>
+                <br>
+                <h3 style="color: #2b2b2b;">Экономия</h3>
+                <p style="font-size: 1em;">Вам больше не придется тратить деньги на услуги маркетинговых аналитиков</p>
+            </div>
+
+            <div class="col-md-4 col-12 advantage centered">
+                <i class="fa fa-bolt" aria-hidden="true"></i>
+                <br>
+                <h3 style="color: #2b2b2b;">Молниеностный результат</h3>
+                <p style="font-size: 1em; ">Вы получите прогноз и статистику мгновенно и сразу же сможете приступить к действиям!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 centered title" id="skeptic">
+        <div class="row">
+            <div class="col-md-3 col-1"></div>
+            <div class="col-md-6 centered">
+                <h4 style="margin-top: 1em"> Все еще не попробовали?
+                    <br>
+                    <br>
+                    Предлагаем вам сделать это прямо сейчас!
+                    <br>
+                    </h4>
+            </div>
+            <br> <br>
+            <div class="col-md-3 col-1"></div>
+        </div>
+        <button type="button" class="button" onClick='location.href="http://95.183.13.86:8080/"'> Попробовать
+        </button>
+    </div>
+</div>
+<!--  END STRIP   -->
+
+
+<!--Section: Contact v.1-->
+<section class="section pb-5" id="contactform-desktop">
+    <div class="row" style='margin-right: 0; margin-left: 0'>
+        <!--Grid column-->
+        <div class="col-lg-5 mb-4">
+
+            <!--Form with header-->
+            <div class="card">
+                <div class="card-body">
+                    <!--Header-->
+                    <div class="form-header bluer accent-1">
+                        <h2><i class="fas fa-envelope"></i> Напишите нам:</h2>
+                    </div>
+
+                    <p>Ваши отзывы очень важны для нас!</p>
+                    <br>
+                    <!--Body-->
+                    <form action="index.html" id="contactform">
+                        <div class="alert col-12" role="alert" style="margin-bottom: 2vw">Ваше сообщение
+                            отправлено
+                        </div>
+
+                        <div class="md-form"
+                             style='display:grid; grid-template-columns: 10% 90%; text-align:center'>
+                            <i class="fas fa-user prefix grey-text"></i>
+                            <input type="text" id="name" name='name' class="form-control"
+                                   placeholder="Ваше имя"
+                                   style="border: 4px solid #f2f2f2; margin: 5px" required>
+                        </div>
+
+                        <div class="row" style='margin-right: 0; margin-left: 0'>
+                            <div class="col-5"></div>
+                            <div class="col-2">
+                                <div class="decoration"></div>
+                            </div>
+                            <div class="col-5"></div>
+                        </div>
+
+
+
+                        <div class="row" style='margin-right: 0; margin-left: 0'>
+                            <div class="col-5"></div>
+                        </div>
+
+                        <div class="md-form"
+                             style='display:grid; grid-template-columns: 10% 90%; text-align:center'>
+                            <i class="fas fa-pencil-alt prefix grey-text"></i>
+                            <textarea id="message" name="message" class="form-control md-textarea" rows="3"
+                                      placeholder="Напишите ваши отзывы/пожелания здесь. Спасибо :)"
+                                      style="border: 4px solid #f2f2f2; margin: 5px" required></textarea>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <button type='submit' style="padding: 0;" name='btn' class="btn btn-light-blue">
+                                Отправить
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <!--Form with header-->
+        </div>
+        <!--Grid column-->
+    </div>
+
+</section>
+
+<!--Section: Contact v.1-->
+
+
+<div class="row">
+    <div class="col-5"></div>
+    <div class="col-2">
+        <div class="decoration"></div>
+    </div>
+    <div class="col-5"></div>
+</div>
+<!--BOOTSTRAP 4 SCRIPT-->
+<!--JQUERY MINIFIED-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+<!-- -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+<!-- -->
+<!--BUNDLE JS FOR BOOTSTRAP 4-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9"
+        crossorigin="anonymous"></script>
+<!-- -->
+
+
+<!--MAIN JS-->
+<script src="script.js?v=4" async></script>
+<!-- -->
+
+
+</body>
+</html>

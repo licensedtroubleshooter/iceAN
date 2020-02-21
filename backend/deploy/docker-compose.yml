@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  backend:
+    build:
+      context: ../
+      dockerfile: deploy/Dockerfile
+
+    image: backend:latest
+
+    container_name: backend
+
+    restart: always
+
+    networks:
+      - backend
+
+    ports:
+      - "8000:8000"
+
+networks:
+  backend:

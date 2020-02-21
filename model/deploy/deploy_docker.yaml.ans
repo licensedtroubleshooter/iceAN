@@ -1,0 +1,47 @@
+- name: Deploy model
+  hosts: all
+  vars:
+    proj_name: model
+    proj_dir: '/opt/{{ proj_name }}'
+
+    registry_addr: '{{ lookup("env", "REGISTRY_ADDR") }}'
+    registry_access_token: '{{ lookup("env", "REGISTRY_ACCESS_TOKEN") }}'
+    image_tag: '{{ lookup("env", "IMAGE_TAG") }}'
+
+  tasks:
+    - name: Test service
+      stat: path={{ proj_dir }}/docker-compose.yml
+      register: compose_file
+
+    - name: Create catalogs
+      file:
+        path: '{{ item }}'
+        state: directory
+        mode: 0755
+      with_items:
+      - '{{ proj_dir }}'
+
+    - name: Docker login
+      docker_login:
+        username: gitlab-ci-token
+        password: '{{ registry_access_token }}'
+        registry_url: '{{ registry_addr }}'
+
+    - name: Docker-compose down
+      docker_service:
+        project_src: '{{ proj_dir }}'
+        files: [docker-compose.yml]
+        state: absent
+      when: compose_file.stat.exists
+      ignore_errors: yes
+
+    - name: Copy docker-compose
+      template:
+        src: docker-compose.yml.j2
+        dest: '{{ proj_dir }}/docker-compose.yml'
+
+    - name: Docker-compose up
+      docker_service:
+        project_src: '{{ proj_dir }}'
+        files: [docker-compose.yml]
+        pull: yes

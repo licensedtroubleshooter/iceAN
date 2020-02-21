@@ -1,0 +1,10 @@
+all:
+  hosts:
+    remote:
+       ansible_host: 95.183.13.86
+  vars:
+#    ansible_host: 95.183.13.86
+    ansible_user: root
+    ansible_connection: ssh
+#    ansible_ssh_common_args: -C
+    ansible_ssh_pass: bwFgH9jpmJ
