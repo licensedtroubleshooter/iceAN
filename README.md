@@ -49,7 +49,7 @@ https://vimpel38.ru/
     3. DevOps - Бурцев Борис Евгеньевич, boris.burtseff@yandex.ru, GitHub:
     4. Backend - Куклина Анастасия Евгеньевна, namenori74@yandex.ru, GitHub: @Arvatel
     5. Backend - Клоков Денис Константинович, mr.deklokov@gmail.com, GitHub:
-    6. Data scientist - Суржиков Александр Евгеньевич, surzhikov11@gmail.com, GitHub:
+    6. Data scientist - Суржиков Александр Евгеньевич, surzhikov11@gmail.com, GitHub: @mansasha21
     7. Frontend - Щукин Иван Андреевич, Shchukin.work@bk.ru, GitHub: 
     8. Аналитик и технический писатель - Антонова Алёна Владимировна, antonova1023@gmail.com, GitHub: 
     9. Аналитик и технический писатель - Лобова Маргарита Валерьевна, lobova.rita.2002@gmail.com, GitHub:
