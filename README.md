@@ -21,10 +21,10 @@
 13. vm player
 14. google colab
 15. lib pymongo
-16. Pye Charm Community
+16. PyCharm Community
 17. Syblime Text 3
 18. Robot 3T
-19. Джинкс 
+19. NGINX 
 20. Bash
 21. Командная строка Linux
 22. Virtual Box
